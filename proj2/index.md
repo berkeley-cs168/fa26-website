@@ -25,7 +25,7 @@ If you run `python3 --version` or `python --version` in your terminal and you se
 
 ### Starter Code
 
-[Download a copy of the starter code here.](/assets/projects/proj2/cs168-su26-proj2-routing.zip)
+[Download a copy of the starter code here.](/assets/projects/proj2/cs168-fa26-proj2-routing.zip)
 
 We recommend making frequent backups of your code. Some parts of the project will require you to modify code that you wrote earlier, and you might want to revert your changes to start over from an earlier save point.
 
@@ -40,7 +40,7 @@ Guidelines:
 - Adding helper methods is fine (and encouraged in the last part).
 - In general, if we haven't told you to use something, you probably don't need it. Our goal is not to trick you!
 
-In your terminal, use `cd` to navigate to the `cs168-sp26-proj2-routing/simulator` directory. All of the Python commands should be run from this directory.
+In your terminal, use `cd` to navigate to the `cs168-fa26-proj2-routing/simulator` directory. All of the Python commands should be run from this directory.
 
 
 ## Project Overview

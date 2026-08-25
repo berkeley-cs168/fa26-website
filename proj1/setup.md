@@ -33,9 +33,9 @@ If you run `python3 --version` or `python --version` in your terminal and you se
 
 ## Starter Code
 
-[Download a copy of the starter code here.](/assets/projects/proj1/cs168-su26-proj1-traceroute.zip)
+[Download a copy of the starter code here.](/assets/projects/proj1/cs168-fa26-proj1-traceroute.zip)
 
-In your terminal, use `cd` to navigate to the `cs168-sp26-proj1-traceroute` directory. All of the Python commands should be run from this directory.
+In your terminal, use `cd` to navigate to the `cs168-fa26-proj1-traceroute` directory. All of the Python commands should be run from this directory.
 
 To check that your setup works, in your terminal, run:
 

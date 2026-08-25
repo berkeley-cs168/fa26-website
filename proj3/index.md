@@ -43,9 +43,9 @@ If you run `python3 --version` or `python --version` in your terminal and you se
 
 ### Starter Code
 
-[Download a copy of the starter code here.](/assets/projects/proj3/cs168-su26-proj3-transport.zip)
+[Download a copy of the starter code here.](/assets/projects/proj3/cs168-fa26-proj3-transport.zip)
 
-In your terminal, use `cd` to navigate to the `cs168-sp26-proj3-transport/ext/cs168p2` directory. All of the Python commands should be run from this directory.
+In your terminal, use `cd` to navigate to the `cs168-fa26-proj3-transport/ext/cs168p2` directory. All of the Python commands should be run from this directory.
 
 First, run this command to give executable permissions to the Python file:
 
@@ -85,7 +85,7 @@ This project is split into 9 stages.
 
 Each stage has its own unit tests, provided to you locally. Your grade will be determined only by these unit tests (no hidden tests).
 
-To run a unit test, navigate to `cs168-sp26-proj3-transport/ext/cs168p2`, and run one of these commands, replacing 5 with the number of the stage you want to test:
+To run a unit test, navigate to `cs168-fa26-proj3-transport/ext/cs168p2`, and run one of these commands, replacing 5 with the number of the stage you want to test:
 
 ```bash
 python autograder.py s5 # Runs unit tests for Stage 5.
