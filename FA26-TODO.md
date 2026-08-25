@@ -16,8 +16,8 @@ bundle exec jekyll serve      # preview at http://localhost:4000
 
 - `_config.yml` — title, url, slugs, `TuTh, 11:00 AM-12:30 PM`, Dwinelle 155,
   Ed course `103463`, `under_construction: true`
-- `_data/syllabus.yml` — `2026-08-26` to `2026-12-08`, Tu/Th, SP26 rowspan geometry
-- `_data/lectures.yml` — 30 entries mapped to the 30 Tu/Th class days,
+- `_data/syllabus.yml` — `2026-08-26` to `2026-12-03`, Tu/Th, SP26 rowspan geometry
+- `_data/lectures.yml` — 29 entries mapped to the 29 Tu/Th class days,
   26 numbered lectures, Thanksgiving and midterm rows in place
 - `_data/discussions.yml` — 15 slots, Spring Break entry removed
 - `CNAME` -> `fa26.cs168.io`, all filename prefixes -> `fa26`
@@ -59,13 +59,13 @@ Course is `1365286`; you need per-assignment IDs:
 ## 3. Needs a content decision
 
 **Project column rowspans.** The column encodes the project timeline as row
-counts, inherited from SP26. To make it fit FA26's 60 rows I shrank only the
-trailing spacer (18 -> 10). Once due dates exist, rebuild the whole column —
-current values are `8, 8, 8, 18, 4, 4, 10`.
+counts, inherited from SP26. To make it fit FA26's 58 rows I shrank only the
+trailing spacer (18 -> 8). Once due dates exist, rebuild the whole column —
+current values are `8, 8, 8, 18, 4, 4, 8`.
 
-**Discussion slot 15 is a blank placeholder.** FA26 has 30 class days = 15
-discussion slots at two class days each. Slot 14 spans Thanksgiving (Nov 26) and
-Dec 1; slot 15 covers Dec 3 and Dec 8. Decide what runs those weeks and fill in
+**Discussion slot 15 is a blank placeholder.** FA26 has 29 class days = 14 full
+slots plus a half. Slot 14 spans Thanksgiving (Nov 26) and Dec 1; slot 15 is a
+half-week covering Dec 3 only. Decide what runs those weeks and fill in
 the last entry in `_data/discussions.yml`.
 
 **Lecture titles now follow the CSV where topics differ.** Lectures 23 and 24 are
@@ -83,9 +83,25 @@ but the site says `Routing 3: Link-State, Addressing`.
 as lectures 18 and 19, ending at 29. The site marks them `nonumber` (SP26 and
 SU26 both did), so students see 26 numbered lectures and Buffer is unnumbered.
 
-**Dec 10 has no lecture.** It is a Tu/Th day inside the instruction window
-(ends Dec 11), but the CSV's last lecture is Dec 8. `end_date` is `2026-12-08`
-so Dec 10 does not render. Change if you want an RRR row.
+**The lecture schedule has one row too many.** The official Fall 2026 calendar says
+formal classes end **Fri Dec 4**; Dec 7-11 is RRR week and Dec 14-18 is finals.
+So Tu/Th lectures run Aug 27 - Dec 3 = **29 class days**, one of which (Nov 26) is
+the Thanksgiving holiday.
+
+The spreadsheet lists 29 numbered lectures plus a Thanksgiving row = 30 slots.
+That is one more than exists. `Buffer/Guest?` is currently dropped from the site
+since it is the trailing row and explicitly tentative. Confirm with Ion and Sylvia
+that cutting Buffer is the right call rather than dropping something else.
+
+Final lineup: Nov 24 AI (Collectives), Nov 26 Thanksgiving, Dec 1 Wireless,
+Dec 3 Cellular.
+
+**Final exam date.** Finals week is **Mon Dec 14 - Fri Dec 18, 2026**. The exact
+slot comes from the exam group for a TuTh 11:00am class - check the Fall Final
+Exam Groups calendar at registrar.berkeley.edu/calendars/final-exam-groups/, or
+read it off CalCentral, which is authoritative once registration opens. Room
+assignments publish in the 11th week of instruction. Once you have it, fill in
+`_data/exams.yml` `final` and add the date to `extra_days` in `_data/syllabus.yml`.
 
 ## 4. Content review
 
@@ -133,15 +149,15 @@ kept for content diffing. Delete when done.
 ## How the schedule table works
 
 Everything is row arithmetic. `syllabus.yml` sets `day_rowspan: 2`, so one class
-day is two table rows. 30 Tu/Th class days = **60 rows**, and every column must
+day is two table rows. 29 Tu/Th class days = **58 rows**, and every column must
 sum to exactly that:
 
 | Column | Entries | Rows each | Total |
 |---|---|---|---|
-| Lectures | 30 | 2 | 60 |
-| Discussions | 15 | 4 | 60 |
-| Projects | 7 | varies | 60 |
+| Lectures | 29 | 2 | 58 |
+| Discussions | 15 | 14 at 4 + 1 at 2 | 58 |
+| Projects | 7 | varies | 58 |
 
-Overflow silently truncates — entries past row 60 vanish with no error.
+Overflow silently truncates — entries past row 58 vanish with no error.
 Underflow leaves blank cells at the bottom. If you change `class_days` or the
 date range, recompute all three columns.
