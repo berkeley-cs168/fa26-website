@@ -133,15 +133,17 @@ assignments publish in the 11th week of instruction. Once you have it, fill in
 
 ## 3b. Deliberately removed for now
 
-**Project 3.** Page, assets, and both schedule entries deleted while the project
-is being rewritten. The project column's trailing spacer absorbed the freed rows
-(`rowspan: 16`). To restore: copy `proj3/` and `assets/projects/proj3/` from the
-SU26 repo, rename the zip to `cs168-fa26-proj3-transport.zip`, re-add the two
-entries to `_data/projects.yml`, and shrink the spacer back so the column still
-sums to 58.
+**Project 3.** `proj3/index.md` is a "coming soon" placeholder so links to
+`/proj3/` keep resolving. Assets and both schedule entries are still removed while
+the project is rewritten.
 
-Note `proj3/index.md` referenced `site.data.projects.projects[3]` and `[4]` by
-index for its Gradescope links — those indices shift when you re-add the entries.
+To restore: copy `assets/projects/proj3/` from the SU26 repo, rename the zip to
+`cs168-fa26-proj3-transport.zip`, replace the placeholder page with the real spec,
+re-add the two entries to `_data/projects.yml`, and shrink the trailing spacer
+(currently `rowspan: 16`) so the project column still sums to 58.
+
+Note the SU26 spec referenced `site.data.projects.projects[3]` and `[4]` by index
+for its Gradescope links — those indices shift when you re-add the entries.
 
 **Exam Logistics page.** `nav_exclude: true` in `exam.md`. Unhide once
 `_data/exams.yml` is real.
