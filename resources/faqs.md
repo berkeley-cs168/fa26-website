@@ -18,9 +18,9 @@ Last updated: {{ site.data.faqs.last_updated }}
 
 We don't know. (And we still won't know even if we know your waitlist position, so please don't email us to ask.)
 
-In the past three semesters ({{ site.data.faqs.past_three_semesters }}), we were able to expand the class to enroll all interested students, but we cannot promise that the same will happen in {{ site.data.faqs.semester_capital }} {{ site.data.faqs.year }}.
+In recent semesters, we were able to expand the course to enroll all interested students, but we cannot promise that the same will happen in {{ site.data.faqs.semester_capital }} {{ site.data.faqs.year }}.
 
-We will not have any information about potential course expansion until the first full week of the fall semester ({{ site.data.faqs.first_week }}), at the earliest.
+We will not have any information about potential course expansion until the first full week of the semester ({{ site.data.faqs.first_week }}), at the earliest. Any updates will be posted on this page, so if you email us, you will just get redirected to this page.
 
 
 **Q2: What are my chances of getting off the waitlist?**
@@ -30,13 +30,11 @@ We don't know. You could check [Berkeleytime](https://berkeleytime.com/enrollmen
 Besides past trends, we have no way to estimate your odds of getting off the waitlist. If you're on the waitlist, we strongly recommend having a backup plan in case you are unable to enroll.
 
 
-**Q3: I'm not a declared L&S Computer Science or College of Engineering major. Can I enroll in the class?**
+**Q3: I'm not a Computer Science or Data Science major. Can I enroll in the class?**
 
-Sorry, course staff is not in charge of enrollment. We have to follow [the department's enrollment policies](https://eecs.berkeley.edu/resources/undergrads/cs/degree-reqs/enrollment-policy), which restricts CS 168 enrollment to declared L&S Computer Science or College of Engineering majors only.
+Course staff is not in charge of enrollment. Our understanding is that the fall offering of CS 168 will be open to all interested students. If you have questions about enrollment, please email cs-enrollments@eecs.berkeley.edu.
 
-If you are not part of this group, you cannot enroll or waitlist in the class. We don't have enrollment codes to hand out or any other way to circumvent this policy.
-
-If you have further questions, please reach out to the emails listed in the linked document.
+Note: Per the [course listing](https://classes.berkeley.edu/content/{{ site.data.faqs.year }}-{{ site.data.faqs.semester }}-compsci-168-001-lec-001), high school students cannot enroll.
 
 
 **Q4: I plan to declare CS this fall. Can I enroll in the class after I declare?**
