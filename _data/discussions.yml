@@ -153,3 +153,5 @@ discussions:
   regular_video: ''
   extra: '[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)'
 - title: ''
+  nonumber: true
+  rowspan: 4
