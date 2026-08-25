@@ -1,0 +1,23 @@
+current_exam: "midterm"
+midterm:
+  date: "" # TODO(FA26)
+  alt: "" # TODO(FA26)
+  form_deadline: "" # TODO(FA26)
+  form_open_until: "" # TODO(FA26)
+  form: "" # TODO(FA26)
+  scope: "" # TODO(FA26)
+  num_cheatsheets: "two"
+  arrival: "" # TODO(FA26)
+  day: "TBD"
+  start: "TBD"
+final:
+  date: "" # TODO(FA26)
+  alt: "" # TODO(FA26)
+  form_open_until: "" # TODO(FA26)
+  form_deadline: "" # TODO(FA26)
+  form: "" # TODO(FA26)
+  scope: "" # TODO(FA26)
+  num_cheatsheets: "three"
+  arrival: "" # TODO(FA26)
+  day: "TBD"
+  start: "TBD"

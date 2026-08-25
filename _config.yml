@@ -1,0 +1,200 @@
+#################################
+# Official Jekyll documentation #
+#################################
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+#######################################################
+# Config you may need to change once per semester     #
+#######################################################
+
+# - Jekyll default variables.
+# - For the title on the homepage, the name people see in the browser tab, etc.
+title: "CS 168 Fall 2026"
+description: "Intro to the Internet at UC Berkeley"
+
+# - Jekyll default variable.
+# - The subpath of your site, e.g. /blog
+# - Example: If you build your site to inst.eecs.berkeley.edu/~cs188/sp25,
+#   then this should say "/~cs188/sp25"
+# - Example: If you build your site to sp25.cs161.org,
+#   then this should say "" since there is no subpath
+# - If not empty, the baseurl MUST start with a leading slash,
+#   and MUST NOT have a slash at the end. "/sp25" is good, "/sp25/" is bad
+baseurl: ""
+
+# - Jekyll default variable.
+# - The full URL of your homepage.
+url: "https://fa26.cs168.io"
+
+# - Used in _includes/title.html and index.html
+# - Path to an image to display in two places:
+# - 1) The sidebar (or top bar on mobile)
+# - 2) At the top-right of the homepage
+# - Leave blank to omit a logo.
+# - If you want the homepage to have a different logo from the sidebar,
+#   then edit index.html.
+logo: "/assets/images/cs168-logo.webp"
+
+# - Used in _includes/title.html
+# - Optional text that replaces site.title at the top of the sidebar when set.
+# - If logo is set and shorthand_text is left blank, the logo will take up 100% of the space.
+shorthand_text: "CS 168 FA26"
+
+# - Can be used throughout the website (e.g. project specs).
+# - Example: In the spec, write "Pull from the skeleton-{{ site.semester_slug }} repo."
+#   This will automatically update to "skeleton-fa24" or "skeleton-sp25" each semester.
+semester_slug: "fa26"
+semester_full: "Fall 2026"
+next_semester_slug: "sp27" # for incompletes page
+next_semester_full: "Spring 2027" # for incompletes page
+
+# - Updates the top line of the homepage, i.e. the one that says
+#   "Instructor: EvanBot / Lecture: TuTh, 12:30–2:00 PM, Wheeler 150 [Zoom, Playlist]"
+# - Note: Instructor is pulled from the _staffers folder.
+lecture:
+  time: "" # TODO(FA26): lecture days/time from classes.berkeley.edu
+  location:
+      name: "" # TODO(FA26): lecture room
+      link: "" # TODO(FA26): berkeley.edu/map link
+heading_links:
+  - text: "Zoom"
+    url: "" # TODO(FA26): recurring lecture Zoom link
+  - text: "Playlist"
+    url: "" # TODO(FA26): [CS168 FA26] Live Lectures playlist
+
+# - Used on staff.md to show students the staff email.
+staff_email: "cs168@berkeley.edu"
+
+# - Use this to show/hide the "announcements" feature on the homepage.
+# - Add your weekly announcements in the _announcements folder.
+enable_announcements: false
+
+
+#######################################################
+# Config to show/hide warnings on pages               #
+#######################################################
+
+# - Set this to true at the start of semesters to show a warning on every page.
+under_construction: true
+
+# - Set this to true in the first few weeks of the semester
+#   if discussion times are uncertain (populates on calendar.md only).
+discussions_under_construction: false
+
+# - Set this to true to archive the semester and show a warning on every page.
+outdated: false
+
+# - If you set outdated, what is the latest site URL that we should link to?
+# - Ideally this is a URL that always redirects to your current semester, e.g.
+#   https://cs161.org or https://inst.eecs.berkeley.edu/~cs188
+# - This is only used in _layouts/page.html and _layouts/project.html.
+latest_sem: "https://cs168.io"
+
+
+#######################################################
+# Config for external links in the top-right corner   #
+#######################################################
+
+# - Leave "Dark Mode" unchanged. It uses Javascript to toggle dark mode.
+
+aux_links:
+  Dark Mode:
+    - "#"
+  Textbook:
+    - 'https://textbook.cs168.io'
+  Ed:
+    - '' # TODO(FA26): new Ed course URL
+  OH Queue:
+    - 'https://oh.cs168.io'
+  Extensions:
+    - 'https://flextensions.berkeley.edu'
+  Feedback:
+    - '' # TODO(FA26): new SPA feedback form
+
+#######################################################
+# Config for Right Table of Contents                  #
+#######################################################
+# These settings set the upper and lower bounds of the headings
+# that will be included in the right table of contents. (The
+# numbers correspond to h1, h2, h3, etc.)
+toc_min_heading: 2
+toc_max_heading: 6
+
+# When using JS, this sets the depth of the table of contents
+# that will be shown when the page loads. When you scroll into
+# a section that has a deeper heading, the table of contents will
+# automatically expand to show that section.
+#
+# In order to prevent layout creep, when JS is off, the table of contents
+# will display the minimum depth between toc_max_heading and toc_collapse_depth.
+# To show all headings, set this to 6.
+# Note: Setting this to 1 (showing only h1 headers) doesn't work and leads to
+# the same behavior as setting this to 2 (showing h1 and h2 headers).
+toc_collapse_depth: 3
+
+#######################################################
+# Config you will probably never need to change,      #
+# unless you are rebuilding the website               #
+#######################################################
+
+# - If you have files that should not be built on the website, list them here.
+# - Example: Your project spec has a README that's for staff editing the spec.
+# - Example: You have a Python script you use to automate something in the repo.
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor", "README.md", "FA26-TODO.md"]
+
+# - Every few years, we may need to update the JTD version to pull from upstream.
+theme: just-the-docs
+
+color_scheme: wider
+search_enabled: true
+heading_anchors: true
+enable_copy_code_button: true
+permalink: pretty
+footer_content:
+
+# Formally define the collections that we use.
+# https://jekyllrb.com/docs/collections/
+collections:
+  staffers:
+  announcements:
+# Default layouts for each collection type
+# Sets the default layout for every markdown file in _staffers/ to 'staffer'
+# and the default subpath for images in _staffers/ to '/assets/staff/'
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
+  - scope:
+      path: ""
+      type: staffers
+    values:
+      layout: staffer
+      subpath: "/assets/staff/"
+
+plugins:
+  - jekyll-seo-tag
+
+# This part is to silence sass deprecating warnings, remove after JTD fixes this upstream.
+# https://github.com/just-the-docs/just-the-docs/pull/1548
+# and https://github.com/jekyll/jekyll/issues/9686
+sass:
+  quiet_deps: true
+  silence_deprecations: ["import"] # https://github.com/just-the-docs/just-the-docs/issues/1607
+
+# This ensures that Jekyll always assumes dates are in UTC, which is
+# important for making sure that the calendar renders dates correctly.
+timezone: UTC

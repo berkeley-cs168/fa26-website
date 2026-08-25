@@ -1,0 +1,302 @@
+#####################################
+# Instructions for updating website #
+#####################################
+
+# To upload Google Slides (or other externally-linked) lecture slides
+# to the website, use the "slides" field of each array entry below.
+
+# To upload PDF lecture slides to the website, just put the PDF
+# in assets/lectures using the filename convention below.
+# Change the "lecture_prefix" field to set the filename convention.
+#
+# The link to the slides will automatically appear once you
+# put the PDF with the right filename in the right folder.
+#
+# Lecture slide filepaths are all formatted based on the lecture number.
+# Pad lecture numbers, e.g. lecture 2 uses "02", not "2".
+#
+# For example, the first few lecture slides should be put at:
+#   - /assets/lectures/cs101-sp25-lec01.pdf
+#   - /assets/lectures/cs101-sp25-lec02.pdf
+#     ...
+#   - /assets/lectures/cs101-sp25-lec25.pdf
+# If you'd like a different filepath or prefix (in the example, it's
+# /assets/lectures/cs161-sp25-lec), change "lecture_prefix" below.
+
+# You can use a mix of Google Slides and PDFs. The "slides" link takes priority,
+# and if the link is empty, then the repo looks for a PDF instead.
+
+# Use the "video", "recording", "quiz" links to link videos/recordings/quizzes.
+
+# "readings" is an array, where each array element has a "name" and a "link".
+# All name/link elements in the array get rendered in that lecture box.
+# If you want a reading with no link, just include "name" without "link" for
+# that array element.
+
+# Rules for linking slides/videos/recordings/quizzes/readings:
+# If your link is an external link to a different website, it should start with http://
+# or https://. For example, "https://example.com" is good, "example.com" is bad.
+# If your link is an internal link to another page on this website, you should write a
+# relative filepath starting at the root of this repo, e.g. "/assets/images/logo.png".
+
+# You can use the "extra" field to write any arbitrary markdown in the box.
+# **Warning**: You should only use this sparingly for one-off links, e.g. an extra
+# PDF that only appears in one cell. **Do not** use this for recurring links like
+# adding "Slides" to every assignment - that should go in "parts" instead.
+# "parts" has built-in aria-label tags to help distinguish recurring links like
+# "Slides" in every cell, but "extra" does not have these tags, so each "extra"
+# that you add should be distinct from all the others.
+
+#####################################
+# Additional documentation          #
+#####################################
+
+# Each element in the array corresponds to one box on the website.
+# This includes boxes that are blank or don't have a lecture.
+# By default, each box spans 1 row (edit the default in syllabus.yml).
+# To override this, use the "rowspan" attribute to resize a box.
+
+# The website automatically numbers each element in the array.
+# To skip numbering (e.g. for a "no lecture" box), add
+# "nonumber: True" as an attribute.
+
+# To add a box on a date without a lecture, or to add an extra box
+# on a date with a lecture, add the date to the extra_days field
+# in syllabus.yml (more documentation there). Then, to fill in your
+# new box, add an element in the array where the box would appear.
+
+# To highlight the cell in a special color, add "classes", and we have
+# some pre-defined colors like "schedule-purple" and "schedule-green".
+# You can add your own colors in _sass/custom/custom.scss if you want.
+# Example:
+# - title: "My Purple Leture"
+#   slides: "https://www.google.com"
+#   classes:
+#     - schedule-purple
+
+# - You should not need to change these unless you're rebuilding the website.
+# - If your lecture slides are Google Slides links, ignore this.
+# - If your lecture slides are PDFs in this repo, update this.
+lecture_prefix: "/assets/lectures/cs168-fa26-lec"
+# - If your readings are PDFs in the repo, update this and readings.html.
+# - If your readings are external links, then ignore this.
+readings_prefix: "/assets/notes/cs168-fa26-note"
+
+lectures:
+  - title: "Intro 1: Architecture and Protocols"
+    readings:
+      - name: "Intro"
+        link: "https://textbook.cs168.io/intro/intro.html"
+    slides: ""
+    recording: ""
+  - title: "Intro 2: Architectural Overview: Bottom-up"
+    readings:
+      - name: "Links"
+        link: "https://textbook.cs168.io/intro/links.html"
+      - name: "Multiplexing"
+        link: "https://textbook.cs168.io/intro/sharing-resources.html"
+    slides: ""
+    recording: ""
+  - title: "Intro 3: Architectural Overview: Top-Down"
+    readings:
+      - name: "Layers"
+        link: "https://textbook.cs168.io/intro/layers.html"
+      - name: "Headers"
+        link: "https://textbook.cs168.io/intro/headers.html"
+    slides: ""
+    recording: ""
+  - title: "Intro 4: Architectural Principles"
+    readings:
+      - name: "Architecture"
+        link: "https://textbook.cs168.io/intro/architecture.html"
+      - name: "Design"
+        link: "https://textbook.cs168.io/intro/sharing-resources.html"
+    slides: ""
+    recording: ""
+  - title: "Routing 1: Principles"
+    readings:
+      - name: "Intro"
+        link: "https://textbook.cs168.io/routing/intro.html"
+      - name: "Model"
+        link: "https://textbook.cs168.io/routing/model.html"
+      - name: "States"
+        link: "https://textbook.cs168.io/routing/solutions.html"
+    slides: ""
+    recording: ""
+  - title: "Routing 2: Distance-Vector"
+    readings:
+      - name: "Distance-Vector"
+        link: "https://textbook.cs168.io/routing/distance-vector.html"
+    slides: ""
+    recording: ""
+  - title: "Routing 3: Link-State, Addressing"
+    readings:
+      - name: "Link-State"
+        link: "https://textbook.cs168.io/routing/link-state.html"
+      - name: "Addressing"
+        link: "https://textbook.cs168.io/routing/addressing.html"
+    slides: ""
+    video: "https://youtu.be/T69UaqNeWvw"
+  - title: "Routing 4: Routers"
+    readings:
+      - name: "Routers"
+        link: "https://textbook.cs168.io/routing/router.html"
+    slides: ""
+    video: "https://youtu.be/KWU_8UY2cOM"
+  - title: "Routing 5: BGP I"
+    readings:
+      - name: "Model"
+        link: "https://textbook.cs168.io/routing/autonomous-systems.html"
+      - name: "Design"
+        link: "https://textbook.cs168.io/routing/bgp.html"
+    slides: ""
+    recording: ""
+  - title: "Routing 6: BGP II"
+    readings:
+      - name: "Implementation"
+        link: "https://textbook.cs168.io/routing/bgp-implementation.html"
+      - name: "IP Header"
+        link: "https://textbook.cs168.io/routing/ip-header.html"
+    slides: ""
+    recording: ""
+  - title: "Transport 1: TCP I"
+    readings:
+      - name: "Principles"
+        link: "https://textbook.cs168.io/transport/reliability.html"
+    slides: ""
+    recording: ""
+  - title: "Transport 2: TCP II"
+    readings:
+      - name: "Design"
+        link: "https://textbook.cs168.io/transport/tcp-design.html"
+      - name: "Implementation"
+        link: "https://textbook.cs168.io/transport/tcp-implementation.html"
+    slides: ""
+    recording: ""
+  - title: "Transport 3: Congestion Control I"
+    readings:
+      - name: "Principles"
+        link: "https://textbook.cs168.io/transport/cc-principles.html"
+      - name: "Design"
+        link: "https://textbook.cs168.io/transport/cc-design.html"
+      - name: "Implementation"
+        link: "https://textbook.cs168.io/transport/cc-implementation.html"
+    slides: ""
+    recording: ""
+  - title: "Transport 4: Congestion Control II"
+    readings:
+      - name: "Throughput"
+        link: "https://textbook.cs168.io/transport/throughput-model.html"
+      - name: "Issues"
+        link: "https://textbook.cs168.io/transport/cc-issues.html"
+      - name: "Router-Assisted"
+        link: "https://textbook.cs168.io/transport/router-based-cc.html"
+    slides: ""
+    recording: ""
+  - title: "Applications 1: DNS"
+    readings:
+      - name: "DNS"
+        link: "https://textbook.cs168.io/applications/dns.html"
+    slides: ""
+    recording: ""
+  - title: "Applications 2: HTTP and CDNs"
+    readings:
+      - name: "HTTP"
+        link: "https://textbook.cs168.io/applications/http.html"
+    slides: ""
+    recording: ""
+  - title: "End-to-End 1: Ethernet, STP"
+    readings:
+      - name: "Ethernet"
+        link: "https://textbook.cs168.io/end-to-end/ethernet.html"
+      - name: "STP"
+        link: "https://textbook.cs168.io/end-to-end/l2-routing.html"
+    slides: ""
+    recording: ""
+  - title: "No Lecture (Midterm)"
+    nonumber: true
+  - title: "**Midterm** (Fri Mar 20, 7–9pm)"
+    nonumber: true
+  - title: "No Lecture (Spring Break)"
+    nonumber: true
+    rowspan: 4
+  - title: "End-to-End 2: ARP, DHCP, NAT, TLS"
+    readings:
+      - name: "NAT"
+        link: "https://textbook.cs168.io/end-to-end/nat.html"
+      - name: "TLS"
+        link: "https://textbook.cs168.io/end-to-end/tls.html"
+      - name: "ARP"
+        link: "https://textbook.cs168.io/end-to-end/arp.html"
+      - name: "DHCP"
+        link: "https://textbook.cs168.io/end-to-end/dhcp.html"
+      - name: "End-to-End"
+        link: "https://textbook.cs168.io/end-to-end/end-to-end.html"
+    slides: ""
+    recording: ""
+  - title: "Datacenters 1: Topology"
+    readings:
+      - name: "Topology"
+        link: "https://textbook.cs168.io/datacenter/topology.html"
+      - name: "Congestion"
+        link: "https://textbook.cs168.io/datacenter/datacenter-cc.html"
+    slides: ""
+    recording: ""
+  - title: "Datacenters 2: Routing"
+    readings:
+      - name: "Routing"
+        link: "https://textbook.cs168.io/datacenter/datacenter-routing.html"
+      - name: "Addressing"
+        link: "https://textbook.cs168.io/datacenter/datacenter-addressing.html"
+      - name: "Virtualization"
+        link: "https://textbook.cs168.io/datacenter/virtualization.html"
+    slides: ""
+    recording: ""
+  - title: "Datacenters 3: SDN"
+    readings:
+      - name: "SDN"
+        link: "https://textbook.cs168.io/datacenter/sdn.html"
+    slides: ""
+    recording: ""
+    rowspan: 1
+  - title: "Datacenters 4: Host Networking"
+    readings:
+      - name: "Host Networking"
+        link: "https://textbook.cs168.io/special-topics/host-networking.html"
+    slides: ""
+    recording: ""
+    rowspan: 1
+  - title: "Beyond Client-Server 1: Multicast"
+    readings:
+      - name: "Multicast"
+        link: "https://textbook.cs168.io/beyond-client-server/"
+    slides: ""
+    recording: ""
+  - title: "Beyond Client-Server 2: Collectives"
+    readings:
+      - name: "Operations"
+        link: "https://textbook.cs168.io/beyond-client-server/collective-operations.html"
+      - name: "Implementation"
+        link: "https://textbook.cs168.io/beyond-client-server/collective-implementations.html"
+    slides: ""
+    recording: ""
+  - title: "Wireless 1: Wireless Links"
+    readings:
+      - name: "Wireless"
+        link: "https://textbook.cs168.io/special-topics/wireless.html"
+    slides: ""
+    video: "https://www.youtube.com/watch?v=TZJ9dAARc1E"
+  - title: "Wireless 2: Cellular"
+    readings:
+      - name: "Cellular"
+        link: "https://textbook.cs168.io/special-topics/cellular.html"
+    slides: ""
+    recording: ""
+  - title: "Buffer"
+    nonumber: true
+    rowspan: 4
+  - title: "No Lecture (RRR Week)"
+    nonumber: true
+    rowspan: 4
+  - title: "**Final Exam** (Fri May 15, 11:30am–2:30pm)"
+    nonumber: true
