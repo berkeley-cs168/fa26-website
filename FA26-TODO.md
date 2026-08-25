@@ -34,9 +34,33 @@ over. `remove_prefix` is already `"[CS168 FA26] "` — keep the trailing space.
 
 **Feedback form** — `_config.yml` `aux_links`.
 
-**Staff** — `_staffers/` and `assets/staff/` still hold SU26's 8 people.
-Rebuild from the welcome form; run photos through `mogrify` before committing
-(SU26 kept the folder to 332 KB).
+**Staff photos, emails, and bios.** The FA26 roster is in with names and roles
+only, as requested. Everyone renders with `blank.webp`. To finish, add a `photo:`,
+`email:`, and a bio body to each file in `_staffers/`. Run every photo through the
+`mogrify` script before committing (SU26 kept the whole folder to 332 KB).
+
+Emails already collected, ready to paste into the `email:` field:
+
+| File | Name | Role | Email |
+|---|---|---|---|
+| `zoir.md` | Zoir Imomaliev | Head TA | zoirimo@berkeley.edu |
+| `sam.md` | Sam Son | TA | sam.son@berkeley.edu |
+| `tess.md` | Tess Despres | TA | tdespres@berkeley.edu |
+| `abhi.md` | Abhi Nambiar | TA | abhijitnambiar@berkeley.edu |
+| `mehdi.md` | Mehdi Khfifi | TA | mehdikhfifi@berkeley.edu |
+| `riya.md` | Riya Sehgal | Tutor | riya_sehgal@berkeley.edu |
+| `sydney.md` | Sydney Dinh | Tutor | sydneydinh@berkeley.edu |
+| `valerie.md` | Valerie Eng | Tutor | valerie_eng@berkeley.edu |
+| `arnav.md` | Arnav Gupta | Tutor | 12arnavg@berkeley.edu |
+
+Ion Stoica and Sylvia Ratnasamy have no email on file yet.
+
+Also set `spaaccess: True` on whoever has SPA inbox access and `dspdata: True` on
+whoever has DSP data access — those render as tags on the staff page.
+
+`assets/staff/` still contains unused SU26 photos (dennis, jonah, lavanya,
+matthew, michael, peyrin). Riya's and Arnav's old photos are still there and may
+be reusable. Delete the rest when you add the new ones.
 
 ## 2. Waiting on other people
 

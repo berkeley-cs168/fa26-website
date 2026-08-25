@@ -1,4 +1,4 @@
 ---
-name: Arnav Gupta
+name: Sydney Dinh
 role: Tutor
 ---
