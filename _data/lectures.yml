@@ -136,13 +136,11 @@ lectures:
   - name: Addressing
     link: https://textbook.cs168.io/routing/addressing.html
   slides: ''
-  video: https://youtu.be/T69UaqNeWvw
 - title: 'Routing 4: Routers'
   readings:
   - name: Routers
     link: https://textbook.cs168.io/routing/router.html
   slides: ''
-  video: https://youtu.be/KWU_8UY2cOM
 - title: 'Routing 5: BGP I'
   readings:
   - name: Model
@@ -282,7 +280,6 @@ lectures:
   - name: Wireless
     link: https://textbook.cs168.io/special-topics/wireless.html
   slides: ''
-  video: https://www.youtube.com/watch?v=TZJ9dAARc1E
 - title: 'Wireless 2: Cellular'
   readings:
   - name: Cellular
