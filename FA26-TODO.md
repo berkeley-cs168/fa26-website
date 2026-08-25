@@ -82,7 +82,7 @@ evening exams on non-class days. Once Carlos Garcia confirms:
 Course is `1365286`; you need per-assignment IDs:
 `https://www.gradescope.com/courses/1365286/assignments/<id>`
 
-**Due dates** — `_data/homeworks.yml` and `_data/projects.yml`, every `due:`.
+**Due dates** — `_data/projects.yml`, every `due:`.
 
 ## 3. Needs a content decision
 
@@ -144,6 +144,17 @@ assignments publish in the 11th week of instruction. Once you have it, fill in
 `_data/exams.yml` `final` and add the date to `extra_days` in `_data/syllabus.yml`.
 
 ## 3b. Deliberately removed for now
+
+**Homework column.** FA26 has no homeworks, confirmed. The `HW` column stays
+commented out in `_includes/syllabus.html` with `homework_width: "0%"` - the same
+as SU26 and SP26. `_data/homeworks.yml` is dormant and unused; leave it alone.
+The `Labs` column is hidden the same way.
+
+**Empty cells are expected.** Lecture cells have no Slides/Recording links,
+discussions have no Worksheet/Solutions/Video/Slides links, and projects have no
+due dates - none of that content exists yet. This makes rows visibly shorter than
+a mid-semester site. Nothing is wrong with the CSS; the rows grow as content
+lands.
 
 **Project 3.** `proj3/index.md` is a "coming soon" placeholder so links to
 `/proj3/` keep resolving. Assets and both schedule entries are still removed while
