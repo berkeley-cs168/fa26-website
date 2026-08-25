@@ -109,6 +109,7 @@ discussion_filename_bases:
 discussions:
 - title: No discussion
   nonumber: true
+  rowspan: 2
 - title: Intro I
   regular_video: ''
   regular_slides: ''
@@ -152,4 +153,3 @@ discussions:
   regular_video: ''
   extra: '[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)'
 - title: ''
-  rowspan: 2

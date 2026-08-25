@@ -91,10 +91,22 @@ counts, inherited from SP26. To make it fit FA26's 58 rows I shrank only the
 trailing spacer (18 -> 8). Once due dates exist, rebuild the whole column —
 current values are `8, 8, 8, 18, 4, 4, 8`.
 
-**Discussion slot 15 is a blank placeholder.** FA26 has 29 class days = 14 full
-slots plus a half. Slot 14 spans Thanksgiving (Nov 26) and Dec 1; slot 15 is a
-half-week covering Dec 3 only. Decide what runs those weeks and fill in
-the last entry in `_data/discussions.yml`.
+**Discussion content needs a review pass.** The column is now structurally correct
+(week 1 is Thursday-only at `rowspan: 2`, weeks 2-15 are full weeks at `rowspan: 4`),
+but the topics came from SP26 and three weeks look wrong for FA26:
+
+- **Week 10 (Oct 27, Oct 29) is midterm week** - no lecture Tue, midterm Thu - but
+  it currently shows `9. ARP, DHCP, NAT`. Probably wants exam prep or no discussion.
+- **Week 14 (Nov 24, Nov 26) includes Thanksgiving** and shows
+  `13. Wireless and Cellular / Final Minilectures`. Nov 26 is a holiday, and "final
+  minilectures" is early when the final is in December.
+- **Week 15 (Dec 1, Dec 3) is an empty placeholder** titled `14.` - fill it in or
+  label it "No discussion".
+
+Topics also drift from the lectures in the back half, because SP26 ordered a few
+lectures differently. For example week 12's discussion is `Host Networking and SDN`
+but Host Networking isn't lectured until week 13. Walk the table with whoever owns
+discussion content.
 
 **Lecture titles now follow the CSV where topics differ.** Lectures 23 and 24 are
 `Beyond Client-Server 1: Overlays` and `Beyond Client-Server 2: AI (Collectives)`,
