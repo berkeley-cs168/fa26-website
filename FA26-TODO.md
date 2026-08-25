@@ -40,7 +40,11 @@ Rebuild from the welcome form; run photos through `mogrify` before committing
 
 ## 2. Waiting on other people
 
-**Exam dates** — `_data/exams.yml` is fully blank. The lecture schedule puts the
+**Exam dates** — `_data/exams.yml` shows `TBD`. Finals week is **Mon Dec 14 - Fri
+Dec 18, 2026**; the exact slot comes from the exam group for a TuTh 11:00am class
+(registrar.berkeley.edu/calendars/final-exam-groups/, or CalCentral once
+registration opens). The `Exam Logistics` page is `nav_exclude: true` until the
+data exists — flip it back in `exam.md`. The lecture schedule puts the
 midterm on **Thu Oct 29**, but the time isn't confirmed and prior semesters ran
 evening exams on non-class days. Once Carlos Garcia confirms:
 
@@ -103,6 +107,21 @@ read it off CalCentral, which is authoritative once registration opens. Room
 assignments publish in the 11th week of instruction. Once you have it, fill in
 `_data/exams.yml` `final` and add the date to `extra_days` in `_data/syllabus.yml`.
 
+## 3b. Deliberately removed for now
+
+**Project 3.** Page, assets, and both schedule entries deleted while the project
+is being rewritten. The project column's trailing spacer absorbed the freed rows
+(`rowspan: 16`). To restore: copy `proj3/` and `assets/projects/proj3/` from the
+SU26 repo, rename the zip to `cs168-fa26-proj3-transport.zip`, re-add the two
+entries to `_data/projects.yml`, and shrink the spacer back so the column still
+sums to 58.
+
+Note `proj3/index.md` referenced `site.data.projects.projects[3]` and `[4]` by
+index for its Gradescope links — those indices shift when you re-add the entries.
+
+**Exam Logistics page.** `nav_exclude: true` in `exam.md`. Unhide once
+`_data/exams.yml` is real.
+
 ## 4. Content review
 
 **Starter code links are broken.** `assets/projects/` and `assets/discussions/`
@@ -123,6 +142,11 @@ Fix both to `fa26`.
 example. Still true, but worth a look.
 
 **`policies/`** — read for anything semester-specific.
+
+**`policies/dsp.md`** renders an empty accommodations table: it reads
+`site.data.exams.midterm.dsp_150` and similar fields that have never existed in
+`exams.yml`. SU26 shipped this way too, so it is pre-existing, not new. Either add
+the `dsp_*` fields or trim the table.
 
 **`.su26-reference/`** — SU26's `lectures.yml`, `discussions.yml`, `projects.yml`,
 kept for content diffing. Delete when done.

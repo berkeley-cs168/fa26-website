@@ -94,20 +94,6 @@ projects:
 - title: ''
   rowspan: 18
   nonumber: true
-- title: Project 3A (Transport)
-  rowspan: 4
-  due: ''
-  link: proj3/
-  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
-  classes:
-  - schedule-green
-- title: Project 3B (Transport)
-  rowspan: 4
-  due: ''
-  link: proj3/
-  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
-  classes:
-  - schedule-green
 - title: ''
-  rowspan: 8
+  rowspan: 16
   nonumber: true

@@ -2,7 +2,7 @@
 title: Exam Logistics
 layout: page
 nav_order: 0
-nav_exclude: false
+nav_exclude: true # TODO(FA26): set false once exams.yml is filled in
 ---
 
 
