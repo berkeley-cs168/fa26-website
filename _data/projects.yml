@@ -71,29 +71,30 @@
 
 projects:
 - title: Project 1A (Traceroute)
-  rowspan: 8
-  due: ''
+  rowspan: 6
+  due: 2026/09/06
   link: proj1/
   gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
   classes:
   - schedule-yellow
 - title: Project 1B (Traceroute)
   rowspan: 8
-  due: ''
+  due: 2026/09/18
   link: proj1/
   gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
   classes:
   - schedule-yellow
 - title: Project 2 (Routing)
   rowspan: 8
-  due: ''
+  due: 2026/10/02
   link: proj2/
   gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
   classes:
   - schedule-blue
-- title: ''
-  rowspan: 18
-  nonumber: true
-- title: ''
-  rowspan: 16
-  nonumber: true
+- title: Project 3 (TBD)
+  rowspan: 36
+  due: 'TBD'
+  link: proj3/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-green
