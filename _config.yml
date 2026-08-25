@@ -76,7 +76,7 @@ heading_links:
   - text: "Zoom"
     url: "" # TODO(FA26): recurring lecture Zoom link
   - text: "Playlist"
-    url: "" # TODO(FA26): [CS168 FA26] Live Lectures playlist
+    url: "https://www.youtube.com/playlist?list=PLC-TJxRRxRyA"
 
 # - Used on staff.md to show students the staff email.
 staff_email: "cs168@berkeley.edu"
