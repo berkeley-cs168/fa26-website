@@ -74,7 +74,7 @@ lecture:
       link: "https://www.berkeley.edu/map/dwinelle-hall/"
 heading_links:
   - text: "Zoom"
-    url: "" # TODO(FA26): recurring lecture Zoom link
+    url: "https://berkeley.zoom.us/j/94232197847?pwd=uByQa9qAkMoliQqpOEZH0b0RpNKhjX.1"
   - text: "Playlist"
     url: "https://www.youtube.com/playlist?list=PLC-TJxRRxRyA"
 
