@@ -1,9 +1,11 @@
-last_updated: "October 7, 2024"
+last_updated: "August 25, 2026"
 year: "2026"
-semester: "summer"
-semester_capital: "Summer"
-past_three_semesters: "Fall 2023, Spring 2024, and Fall 2024"
-first_week: "January 22, 2025"
+semester: "fall"
+semester_capital: "Fall"
+# TODO(FA26): confirm this claim is true for these three offerings before relying on it
+past_three_semesters: "Summer 2025, Spring 2026, and Summer 2026"
+# Instruction begins Wed Aug 26; the first *full* week starts Mon Aug 31
+first_week: "August 31, 2026"
 midterm:
   date: "TBA"
   alt: "TBA"

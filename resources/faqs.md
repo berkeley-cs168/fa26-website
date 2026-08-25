@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Spring 2025 FAQs
+title: Fall 2026 FAQs
 nav_order: 1
 parent: Resources
-nav_exclude: true
+nav_exclude: false
 ---
 
 # {{ site.data.faqs.semester_capital }} {{ site.data.faqs.year }} FAQs
@@ -83,7 +83,7 @@ If you'd like early access to the homeworks, you can use the ungraded copy on th
 
 The midterm is on {{ site.data.faqs.midterm.date }}.
 
-The final exam is on {{ site.data.faqs.final.date }}. (Source: [Registrar website](https://registrar.berkeley.edu/scheduling/academic-scheduling/academic-scheduling-final-exam-guide-and-schedules/).)
+The final exam is on {{ site.data.faqs.final.date }}. Finals week is December 14&ndash;18, 2026; the exact slot is set by the exam group for our lecture time. (Source: [Registrar website](https://registrar.berkeley.edu/scheduling/academic-scheduling/academic-scheduling-final-exam-guide-and-schedules/).)
 
 
 **Q11: Can I take this class remotely? Do you offer remote exams?**
@@ -92,11 +92,7 @@ We don't have any parts of the class that require in-person attendance, so if yo
 
 However, this class is officially listed by the university as in-person, so not all aspects of the class will have remote support. For example, some resources like office hours may be in-person only. Also, we reserve the right to require in-person attendance at our discretion. For example, if you are found engaging in academic misconduct on an exam, we may require you to take all future exams in-person.
 
-We are offering remote exams **only at the same time as the scheduled exam**. There will be no remote exams starting at any other time. Specifically, if you are taking the midterm remotely, you must start your exam at the same time as the scheduled exam, at {{ site.data.faqs.midterm.start }} on {{ site.data.faqs.midterm.day }}. If you are taking the final exam remotely, you must start your exam at {{ site.data.faqs.final.start }} on {{ site.data.faqs.final.day }}.
-
-In order to take the exams remotely, you need to agree to our video proctoring policy, which involves sending us a recording of a continuous video feed of you taking the exam. If you are not comfortable being recorded, you can always take the exam in-person.
-
-We'll release a form closer to the exams for you to sign up for a remote exam.
+In some past iterations of CS 168, we have offered remote exams. **This semester, we will not be offering remote exams.** All students should plan to take exams in person at the scheduled time.
 
 
 **Q12: Do you offer alternate time exams?**
