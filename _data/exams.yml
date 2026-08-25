@@ -1,6 +1,6 @@
 current_exam: "midterm"
 midterm:
-  date: "" # TODO(FA26)
+  date: "" # TODO(FA26): Thu Oct 29 per lecture schedule - confirm time with Carlos Garcia
   alt: "" # TODO(FA26)
   form_deadline: "" # TODO(FA26)
   form_open_until: "" # TODO(FA26)

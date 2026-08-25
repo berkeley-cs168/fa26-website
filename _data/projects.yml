@@ -70,44 +70,44 @@
 #     - schedule-purple
 
 projects:
-  - title: "Project 1A (Traceroute)"
-    rowspan: 8
-    due: "" # TODO(FA26)
-    link: "proj1/"
-    gradescope: "" # TODO(FA26)
-    classes:
-      - schedule-yellow
-  - title: "Project 1B (Traceroute)"
-    rowspan: 8
-    due: "" # TODO(FA26)
-    link: "proj1/"
-    gradescope: "" # TODO(FA26)
-    classes:
-      - schedule-yellow
-  - title: "Project 2 (Routing)"
-    rowspan: 8
-    due: "" # TODO(FA26)
-    link: "proj2/"
-    gradescope: "" # TODO(FA26)
-    classes:
-      - schedule-blue
-  - title: ""
-    rowspan: 18
-    nonumber: true
-  - title: "Project 3A (Transport)"
-    rowspan: 4
-    due: "" # TODO(FA26)
-    link: "proj3/"
-    gradescope: "" # TODO(FA26)
-    classes:
-      - schedule-green
-  - title: "Project 3B (Transport)"
-    rowspan: 4
-    due: "" # TODO(FA26)
-    link: "proj3/"
-    gradescope: "" # TODO(FA26)
-    classes:
-      - schedule-green
-  - title: ""
-    rowspan: 18
-    nonumber: true
+- title: Project 1A (Traceroute)
+  rowspan: 8
+  due: ''
+  link: proj1/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-yellow
+- title: Project 1B (Traceroute)
+  rowspan: 8
+  due: ''
+  link: proj1/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-yellow
+- title: Project 2 (Routing)
+  rowspan: 8
+  due: ''
+  link: proj2/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-blue
+- title: ''
+  rowspan: 18
+  nonumber: true
+- title: Project 3A (Transport)
+  rowspan: 4
+  due: ''
+  link: proj3/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-green
+- title: Project 3B (Transport)
+  rowspan: 4
+  due: ''
+  link: proj3/
+  gradescope: '' # TODO(FA26): https://www.gradescope.com/courses/1365286/assignments/<id>
+  classes:
+  - schedule-green
+- title: ''
+  rowspan: 10
+  nonumber: true

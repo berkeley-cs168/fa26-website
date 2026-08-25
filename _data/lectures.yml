@@ -83,220 +83,211 @@ lecture_prefix: "/assets/lectures/cs168-fa26-lec"
 readings_prefix: "/assets/notes/cs168-fa26-note"
 
 lectures:
-  - title: "Intro 1: Architecture and Protocols"
-    readings:
-      - name: "Intro"
-        link: "https://textbook.cs168.io/intro/intro.html"
-    slides: ""
-    recording: ""
-  - title: "Intro 2: Architectural Overview: Bottom-up"
-    readings:
-      - name: "Links"
-        link: "https://textbook.cs168.io/intro/links.html"
-      - name: "Multiplexing"
-        link: "https://textbook.cs168.io/intro/sharing-resources.html"
-    slides: ""
-    recording: ""
-  - title: "Intro 3: Architectural Overview: Top-Down"
-    readings:
-      - name: "Layers"
-        link: "https://textbook.cs168.io/intro/layers.html"
-      - name: "Headers"
-        link: "https://textbook.cs168.io/intro/headers.html"
-    slides: ""
-    recording: ""
-  - title: "Intro 4: Architectural Principles"
-    readings:
-      - name: "Architecture"
-        link: "https://textbook.cs168.io/intro/architecture.html"
-      - name: "Design"
-        link: "https://textbook.cs168.io/intro/sharing-resources.html"
-    slides: ""
-    recording: ""
-  - title: "Routing 1: Principles"
-    readings:
-      - name: "Intro"
-        link: "https://textbook.cs168.io/routing/intro.html"
-      - name: "Model"
-        link: "https://textbook.cs168.io/routing/model.html"
-      - name: "States"
-        link: "https://textbook.cs168.io/routing/solutions.html"
-    slides: ""
-    recording: ""
-  - title: "Routing 2: Distance-Vector"
-    readings:
-      - name: "Distance-Vector"
-        link: "https://textbook.cs168.io/routing/distance-vector.html"
-    slides: ""
-    recording: ""
-  - title: "Routing 3: Link-State, Addressing"
-    readings:
-      - name: "Link-State"
-        link: "https://textbook.cs168.io/routing/link-state.html"
-      - name: "Addressing"
-        link: "https://textbook.cs168.io/routing/addressing.html"
-    slides: ""
-    video: "https://youtu.be/T69UaqNeWvw"
-  - title: "Routing 4: Routers"
-    readings:
-      - name: "Routers"
-        link: "https://textbook.cs168.io/routing/router.html"
-    slides: ""
-    video: "https://youtu.be/KWU_8UY2cOM"
-  - title: "Routing 5: BGP I"
-    readings:
-      - name: "Model"
-        link: "https://textbook.cs168.io/routing/autonomous-systems.html"
-      - name: "Design"
-        link: "https://textbook.cs168.io/routing/bgp.html"
-    slides: ""
-    recording: ""
-  - title: "Routing 6: BGP II"
-    readings:
-      - name: "Implementation"
-        link: "https://textbook.cs168.io/routing/bgp-implementation.html"
-      - name: "IP Header"
-        link: "https://textbook.cs168.io/routing/ip-header.html"
-    slides: ""
-    recording: ""
-  - title: "Transport 1: TCP I"
-    readings:
-      - name: "Principles"
-        link: "https://textbook.cs168.io/transport/reliability.html"
-    slides: ""
-    recording: ""
-  - title: "Transport 2: TCP II"
-    readings:
-      - name: "Design"
-        link: "https://textbook.cs168.io/transport/tcp-design.html"
-      - name: "Implementation"
-        link: "https://textbook.cs168.io/transport/tcp-implementation.html"
-    slides: ""
-    recording: ""
-  - title: "Transport 3: Congestion Control I"
-    readings:
-      - name: "Principles"
-        link: "https://textbook.cs168.io/transport/cc-principles.html"
-      - name: "Design"
-        link: "https://textbook.cs168.io/transport/cc-design.html"
-      - name: "Implementation"
-        link: "https://textbook.cs168.io/transport/cc-implementation.html"
-    slides: ""
-    recording: ""
-  - title: "Transport 4: Congestion Control II"
-    readings:
-      - name: "Throughput"
-        link: "https://textbook.cs168.io/transport/throughput-model.html"
-      - name: "Issues"
-        link: "https://textbook.cs168.io/transport/cc-issues.html"
-      - name: "Router-Assisted"
-        link: "https://textbook.cs168.io/transport/router-based-cc.html"
-    slides: ""
-    recording: ""
-  - title: "Applications 1: DNS"
-    readings:
-      - name: "DNS"
-        link: "https://textbook.cs168.io/applications/dns.html"
-    slides: ""
-    recording: ""
-  - title: "Applications 2: HTTP and CDNs"
-    readings:
-      - name: "HTTP"
-        link: "https://textbook.cs168.io/applications/http.html"
-    slides: ""
-    recording: ""
-  - title: "End-to-End 1: Ethernet, STP"
-    readings:
-      - name: "Ethernet"
-        link: "https://textbook.cs168.io/end-to-end/ethernet.html"
-      - name: "STP"
-        link: "https://textbook.cs168.io/end-to-end/l2-routing.html"
-    slides: ""
-    recording: ""
-  - title: "No Lecture (Midterm)"
-    nonumber: true
-  - title: "**Midterm** (Fri Mar 20, 7–9pm)"
-    nonumber: true
-  - title: "No Lecture (Spring Break)"
-    nonumber: true
-    rowspan: 4
-  - title: "End-to-End 2: ARP, DHCP, NAT, TLS"
-    readings:
-      - name: "NAT"
-        link: "https://textbook.cs168.io/end-to-end/nat.html"
-      - name: "TLS"
-        link: "https://textbook.cs168.io/end-to-end/tls.html"
-      - name: "ARP"
-        link: "https://textbook.cs168.io/end-to-end/arp.html"
-      - name: "DHCP"
-        link: "https://textbook.cs168.io/end-to-end/dhcp.html"
-      - name: "End-to-End"
-        link: "https://textbook.cs168.io/end-to-end/end-to-end.html"
-    slides: ""
-    recording: ""
-  - title: "Datacenters 1: Topology"
-    readings:
-      - name: "Topology"
-        link: "https://textbook.cs168.io/datacenter/topology.html"
-      - name: "Congestion"
-        link: "https://textbook.cs168.io/datacenter/datacenter-cc.html"
-    slides: ""
-    recording: ""
-  - title: "Datacenters 2: Routing"
-    readings:
-      - name: "Routing"
-        link: "https://textbook.cs168.io/datacenter/datacenter-routing.html"
-      - name: "Addressing"
-        link: "https://textbook.cs168.io/datacenter/datacenter-addressing.html"
-      - name: "Virtualization"
-        link: "https://textbook.cs168.io/datacenter/virtualization.html"
-    slides: ""
-    recording: ""
-  - title: "Datacenters 3: SDN"
-    readings:
-      - name: "SDN"
-        link: "https://textbook.cs168.io/datacenter/sdn.html"
-    slides: ""
-    recording: ""
-    rowspan: 1
-  - title: "Datacenters 4: Host Networking"
-    readings:
-      - name: "Host Networking"
-        link: "https://textbook.cs168.io/special-topics/host-networking.html"
-    slides: ""
-    recording: ""
-    rowspan: 1
-  - title: "Beyond Client-Server 1: Multicast"
-    readings:
-      - name: "Multicast"
-        link: "https://textbook.cs168.io/beyond-client-server/"
-    slides: ""
-    recording: ""
-  - title: "Beyond Client-Server 2: Collectives"
-    readings:
-      - name: "Operations"
-        link: "https://textbook.cs168.io/beyond-client-server/collective-operations.html"
-      - name: "Implementation"
-        link: "https://textbook.cs168.io/beyond-client-server/collective-implementations.html"
-    slides: ""
-    recording: ""
-  - title: "Wireless 1: Wireless Links"
-    readings:
-      - name: "Wireless"
-        link: "https://textbook.cs168.io/special-topics/wireless.html"
-    slides: ""
-    video: "https://www.youtube.com/watch?v=TZJ9dAARc1E"
-  - title: "Wireless 2: Cellular"
-    readings:
-      - name: "Cellular"
-        link: "https://textbook.cs168.io/special-topics/cellular.html"
-    slides: ""
-    recording: ""
-  - title: "Buffer"
-    nonumber: true
-    rowspan: 4
-  - title: "No Lecture (RRR Week)"
-    nonumber: true
-    rowspan: 4
-  - title: "**Final Exam** (Fri May 15, 11:30am–2:30pm)"
-    nonumber: true
+- title: 'Intro 1: Architecture and Protocols'
+  readings:
+  - name: Intro
+    link: https://textbook.cs168.io/intro/intro.html
+  slides: ''
+  recording: ''
+- title: 'Intro 2: Architectural Overview: Bottom-up'
+  readings:
+  - name: Links
+    link: https://textbook.cs168.io/intro/links.html
+  - name: Multiplexing
+    link: https://textbook.cs168.io/intro/sharing-resources.html
+  slides: ''
+  recording: ''
+- title: 'Intro 3: Architectural Overview: Top-Down'
+  readings:
+  - name: Layers
+    link: https://textbook.cs168.io/intro/layers.html
+  - name: Headers
+    link: https://textbook.cs168.io/intro/headers.html
+  slides: ''
+  recording: ''
+- title: 'Intro 4: Architectural Principles'
+  readings:
+  - name: Architecture
+    link: https://textbook.cs168.io/intro/architecture.html
+  - name: Design
+    link: https://textbook.cs168.io/intro/sharing-resources.html
+  slides: ''
+  recording: ''
+- title: 'Routing 1: Principles'
+  readings:
+  - name: Intro
+    link: https://textbook.cs168.io/routing/intro.html
+  - name: Model
+    link: https://textbook.cs168.io/routing/model.html
+  - name: States
+    link: https://textbook.cs168.io/routing/solutions.html
+  slides: ''
+  recording: ''
+- title: 'Routing 2: Distance-Vector'
+  readings:
+  - name: Distance-Vector
+    link: https://textbook.cs168.io/routing/distance-vector.html
+  slides: ''
+  recording: ''
+- title: 'Routing 3: Link-State, Addressing'
+  readings:
+  - name: Link-State
+    link: https://textbook.cs168.io/routing/link-state.html
+  - name: Addressing
+    link: https://textbook.cs168.io/routing/addressing.html
+  slides: ''
+  video: https://youtu.be/T69UaqNeWvw
+- title: 'Routing 4: Routers'
+  readings:
+  - name: Routers
+    link: https://textbook.cs168.io/routing/router.html
+  slides: ''
+  video: https://youtu.be/KWU_8UY2cOM
+- title: 'Routing 5: BGP I'
+  readings:
+  - name: Model
+    link: https://textbook.cs168.io/routing/autonomous-systems.html
+  - name: Design
+    link: https://textbook.cs168.io/routing/bgp.html
+  slides: ''
+  recording: ''
+- title: 'Routing 6: BGP II'
+  readings:
+  - name: Implementation
+    link: https://textbook.cs168.io/routing/bgp-implementation.html
+  - name: IP Header
+    link: https://textbook.cs168.io/routing/ip-header.html
+  slides: ''
+  recording: ''
+- title: 'Transport 1: TCP I'
+  readings:
+  - name: Principles
+    link: https://textbook.cs168.io/transport/reliability.html
+  slides: ''
+  recording: ''
+- title: 'Transport 2: TCP II'
+  readings:
+  - name: Design
+    link: https://textbook.cs168.io/transport/tcp-design.html
+  - name: Implementation
+    link: https://textbook.cs168.io/transport/tcp-implementation.html
+  slides: ''
+  recording: ''
+- title: 'Transport 3: Congestion Control I'
+  readings:
+  - name: Principles
+    link: https://textbook.cs168.io/transport/cc-principles.html
+  - name: Design
+    link: https://textbook.cs168.io/transport/cc-design.html
+  - name: Implementation
+    link: https://textbook.cs168.io/transport/cc-implementation.html
+  slides: ''
+  recording: ''
+- title: 'Transport 4: Congestion Control II'
+  readings:
+  - name: Throughput
+    link: https://textbook.cs168.io/transport/throughput-model.html
+  - name: Issues
+    link: https://textbook.cs168.io/transport/cc-issues.html
+  - name: Router-Assisted
+    link: https://textbook.cs168.io/transport/router-based-cc.html
+  slides: ''
+  recording: ''
+- title: 'Applications 1: DNS'
+  readings:
+  - name: DNS
+    link: https://textbook.cs168.io/applications/dns.html
+  slides: ''
+  recording: ''
+- title: 'Applications 2: HTTP and CDNs'
+  readings:
+  - name: HTTP
+    link: https://textbook.cs168.io/applications/http.html
+  slides: ''
+  recording: ''
+- title: 'End-to-End 1: Ethernet, STP'
+  readings:
+  - name: Ethernet
+    link: https://textbook.cs168.io/end-to-end/ethernet.html
+  - name: STP
+    link: https://textbook.cs168.io/end-to-end/l2-routing.html
+  slides: ''
+  recording: ''
+- title: No Lecture (Midterm)
+  nonumber: true
+- title: '**Midterm** (Thu Oct 29)'
+  nonumber: true
+- title: 'End-to-End 2: ARP, DHCP, NAT, TLS'
+  readings:
+  - name: NAT
+    link: https://textbook.cs168.io/end-to-end/nat.html
+  - name: TLS
+    link: https://textbook.cs168.io/end-to-end/tls.html
+  - name: ARP
+    link: https://textbook.cs168.io/end-to-end/arp.html
+  - name: DHCP
+    link: https://textbook.cs168.io/end-to-end/dhcp.html
+  - name: End-to-End
+    link: https://textbook.cs168.io/end-to-end/end-to-end.html
+  slides: ''
+  recording: ''
+- title: 'Datacenters 1: Topology'
+  readings:
+  - name: Topology
+    link: https://textbook.cs168.io/datacenter/topology.html
+  - name: Congestion
+    link: https://textbook.cs168.io/datacenter/datacenter-cc.html
+  slides: ''
+  recording: ''
+- title: 'Datacenters 2: Routing'
+  readings:
+  - name: Routing
+    link: https://textbook.cs168.io/datacenter/datacenter-routing.html
+  - name: Addressing
+    link: https://textbook.cs168.io/datacenter/datacenter-addressing.html
+  - name: Virtualization
+    link: https://textbook.cs168.io/datacenter/virtualization.html
+  slides: ''
+  recording: ''
+- title: 'Datacenters 3: SDN'
+  readings:
+  - name: SDN
+    link: https://textbook.cs168.io/datacenter/sdn.html
+  slides: ''
+  recording: ''
+- title: 'Datacenters 4: Host Networking'
+  readings:
+  - name: Host Networking
+    link: https://textbook.cs168.io/special-topics/host-networking.html
+  slides: ''
+  recording: ''
+- title: 'Beyond Client-Server 1: Multicast'
+  readings:
+  - name: Multicast
+    link: https://textbook.cs168.io/beyond-client-server/
+  slides: ''
+  recording: ''
+- title: 'Beyond Client-Server 2: Collectives'
+  readings:
+  - name: Operations
+    link: https://textbook.cs168.io/beyond-client-server/collective-operations.html
+  - name: Implementation
+    link: https://textbook.cs168.io/beyond-client-server/collective-implementations.html
+  slides: ''
+  recording: ''
+- title: No Lecture (Thanksgiving)
+  nonumber: true
+- title: 'Wireless 1: Wireless Links'
+  readings:
+  - name: Wireless
+    link: https://textbook.cs168.io/special-topics/wireless.html
+  slides: ''
+  video: https://www.youtube.com/watch?v=TZJ9dAARc1E
+- title: 'Wireless 2: Cellular'
+  readings:
+  - name: Cellular
+    link: https://textbook.cs168.io/special-topics/cellular.html
+  slides: ''
+  recording: ''
+- title: Buffer
+  nonumber: true

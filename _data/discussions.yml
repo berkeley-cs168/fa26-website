@@ -107,57 +107,49 @@ discussion_filename_bases:
   bridge_name: "Bridge"
 
 discussions:
-  - title: "No discussion"
-    nonumber: True
-    rowspan: 4
-  - title: "Intro I"
-    regular_video: ""
-    regular_slides: ""
-  - title: "Intro II"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Routing I"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Routing II"
-    regular_slides: ""
-    regular_video: ""
-  - title: "BGP"
-    regular_slides: ""
-    regular_video: ""
-  - title: "TCP"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Congestion Control"
-    regular_slides: ""
-    regular_video: ""
-  - title: "DNS, HTTP"
-    regular_slides: ""
-    regular_video: ""
-    extra: "[Midterm Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWs0MMEvF4oc2tqKG7cNM-EX)"
-    rowspan: "6"
-  - title: "No Discussion (Spring Break)"
-    nonumber: True
-  - title: "ARP, DHCP, NAT"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Datacenters"
-    regular_slides: ""
-    regular_video: ""
-    extra: "[Ethernet Slides](https://docs.google.com/presentation/d/1uY7NsitXZ25n9K9iUbcG8O_8W4Cbpog6v9QVUoV7yxE)"
-  - title: "Host Networking and SDN"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Multicast and Collectives"
-    regular_slides: ""
-    regular_video: ""
-  - title: "Wireless and Cellular"
-    regular_slides: ""
-    regular_video: ""
-    extra: "[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)"
-  - title: ""
-    nonumber: True
-    rowspan: "4"
-  - title: ""
-    nonumber: True
-    rowspan: "2"
+- title: No discussion
+  nonumber: true
+- title: Intro I
+  regular_video: ''
+  regular_slides: ''
+- title: Intro II
+  regular_slides: ''
+  regular_video: ''
+- title: Routing I
+  regular_slides: ''
+  regular_video: ''
+- title: Routing II
+  regular_slides: ''
+  regular_video: ''
+- title: BGP
+  regular_slides: ''
+  regular_video: ''
+- title: TCP
+  regular_slides: ''
+  regular_video: ''
+- title: Congestion Control
+  regular_slides: ''
+  regular_video: ''
+- title: DNS, HTTP
+  regular_slides: ''
+  regular_video: ''
+  extra: '[Midterm Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWs0MMEvF4oc2tqKG7cNM-EX)'
+- title: ARP, DHCP, NAT
+  regular_slides: ''
+  regular_video: ''
+- title: Datacenters
+  regular_slides: ''
+  regular_video: ''
+  extra: '[Ethernet Slides](https://docs.google.com/presentation/d/1uY7NsitXZ25n9K9iUbcG8O_8W4Cbpog6v9QVUoV7yxE)'
+- title: Host Networking and SDN
+  regular_slides: ''
+  regular_video: ''
+- title: Multicast and Collectives
+  regular_slides: ''
+  regular_video: ''
+- title: Wireless and Cellular
+  regular_slides: ''
+  regular_video: ''
+  extra: '[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)'
+- title: ''
+  rowspan: 4

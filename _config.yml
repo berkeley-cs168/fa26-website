@@ -68,10 +68,10 @@ next_semester_full: "Spring 2027" # for incompletes page
 #   "Instructor: EvanBot / Lecture: TuTh, 12:30–2:00 PM, Wheeler 150 [Zoom, Playlist]"
 # - Note: Instructor is pulled from the _staffers folder.
 lecture:
-  time: "" # TODO(FA26): lecture days/time from classes.berkeley.edu
+  time: "TuTh, 11:00 AM–12:30 PM"
   location:
-      name: "" # TODO(FA26): lecture room
-      link: "" # TODO(FA26): berkeley.edu/map link
+      name: "Dwinelle 155"
+      link: "https://www.berkeley.edu/map/dwinelle-hall/"
 heading_links:
   - text: "Zoom"
     url: "" # TODO(FA26): recurring lecture Zoom link
@@ -119,7 +119,7 @@ aux_links:
   Textbook:
     - 'https://textbook.cs168.io'
   Ed:
-    - '' # TODO(FA26): new Ed course URL
+    - 'https://edstem.org/us/courses/103463'
   OH Queue:
     - 'https://oh.cs168.io'
   Extensions:
