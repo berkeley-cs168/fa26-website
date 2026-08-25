@@ -22,10 +22,10 @@
 #   - Copy the URL with calendar/u/0?cid= in it
 
 google_api_key: AIzaSyBM2NnPMx5rgCK8fZaG5X1qNcSiW-CRkRg
-google_calendar_id: "" # TODO(FA26): from [CS168 FA26] Website calendar settings
+google_calendar_id: c_c10ef6176f86faa2b1d6dbe9e370419d29b58977f393874bce6dac07a83dc92b@group.calendar.google.com
 
-google_calendar_embed_link: "" # TODO(FA26): "Public URL to this calendar"
-google_calendar_add_link: "" # TODO(FA26): "Get shareable link"
+google_calendar_embed_link: https://calendar.google.com/calendar/embed?src=c_c10ef6176f86faa2b1d6dbe9e370419d29b58977f393874bce6dac07a83dc92b%40group.calendar.google.com&ctz=America%2FLos_Angeles
+google_calendar_add_link: https://calendar.google.com/calendar/u/0?cid=Y19jMTBlZjYxNzZmODZmYWEyYjFkNmRiZTllMzcwNDE5ZDI5YjU4OTc3ZjM5Mzg3NGJjZTZkYWMwN2E4M2RjOTJiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 
 # - Google Calendar events should all be prefixed "[CS101 SP25]" so that students
 #   adding it to their calendar see "[CS101 SP25] Lecture" instead of just "Lecture".
