@@ -261,13 +261,13 @@ lectures:
     link: https://textbook.cs168.io/special-topics/host-networking.html
   slides: ''
   recording: ''
-- title: 'Beyond Client-Server 1: Multicast'
+- title: 'Beyond Client-Server 1: Overlays'
   readings:
   - name: Multicast
     link: https://textbook.cs168.io/beyond-client-server/
   slides: ''
   recording: ''
-- title: 'Beyond Client-Server 2: Collectives'
+- title: 'Beyond Client-Server 2: AI (Collectives)'
   readings:
   - name: Operations
     link: https://textbook.cs168.io/beyond-client-server/collective-operations.html

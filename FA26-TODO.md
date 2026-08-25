@@ -68,14 +68,16 @@ discussion slots at two class days each. Slot 14 spans Thanksgiving (Nov 26) and
 Dec 1; slot 15 covers Dec 3 and Dec 8. Decide what runs those weeks and fill in
 the last entry in `_data/discussions.yml`.
 
-**Two lecture titles drift from the CSV.** The CSV column is labeled
-"Topic (to be updated!)", so I kept SP26's polished titles and their textbook
-readings. Confirm with the content lead:
+**Lecture titles now follow the CSV where topics differ.** Lectures 23 and 24 are
+`Beyond Client-Server 1: Overlays` and `Beyond Client-Server 2: AI (Collectives)`,
+per the schedule spreadsheet. Their textbook readings still point at the Multicast
+and Collectives chapters — confirm those are the right readings for the retitled
+lectures.
 
-| CSV topic | Site title |
-|---|---|
-| Overlays | Beyond Client-Server 1: Multicast |
-| AI (Collectives) | Beyond Client-Server 2: Collectives |
+Other CSV topics are shorthand working notes ("class overview", "bottom-up",
+"concepts, DV, LS") rather than student-facing titles, so those kept the SP26
+wording. One worth a second look: CSV lecture 7 reads "IP addressing; header; v6"
+but the site says `Routing 3: Link-State, Addressing`.
 
 **Lecture numbering differs from the CSV.** The CSV numbers the two midterm rows
 as lectures 18 and 19, ending at 29. The site marks them `nonumber` (SP26 and
