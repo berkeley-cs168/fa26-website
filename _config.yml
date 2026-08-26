@@ -125,7 +125,7 @@ aux_links:
   Extensions:
     - 'https://flextensions.berkeley.edu'
   Feedback:
-    - '' # TODO(FA26): new SPA feedback form
+    - 'https://forms.gle/FfTurn8csgmueVG6A'
 
 #######################################################
 # Config for Right Table of Contents                  #
