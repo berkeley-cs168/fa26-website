@@ -85,10 +85,6 @@ The final exam is on {{ site.data.faqs.final.date }}. Finals week is December 14
 
 **Q11: Can I take this class remotely? Do you offer remote exams?**
 
-We don't have any parts of the class that require in-person attendance, so if you take the entire class remotely, we won't know.
-
-However, this class is officially listed by the university as in-person, so not all aspects of the class will have remote support. For example, some resources like office hours may be in-person only. Also, we reserve the right to require in-person attendance at our discretion. For example, if you are found engaging in academic misconduct on an exam, we may require you to take all future exams in-person.
-
 In this semester, we will not be offering remote exams. All students should plan to take exams in-person at the scheduled time.
 
 
@@ -102,7 +98,7 @@ The alternate final exam time is {{ site.data.faqs.final.alt }} (we'll give you 
 
 There are no other alternate exam times. There are no remote exams at alternate times.
 
-**Note: this is a change from previous semesters.** Previously, students with a class or exam that overlapped our exam time could not enroll at all, so alternate-time exams were rarely needed. The enrollment system now allows time conflicts, so if you have one, the alternate-time exam is intended for you. We are calling this out explicitly rather than changing the policy quietly.
+**Note:** The enrollment system now allows time conflicts, so if you have one, the alternate-time exam is intended for you.
 
 We are only offering the alternate exam time if you are unable to take the exam at the normal time. For example, if you have another exam at the same time, you can take the alternate-time exam. However, wanting a break between non-conflicting exams would not be a valid reason to take the alternate-time exam, because in this case you are able to take the exam at the normal time.
 
