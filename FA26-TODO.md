@@ -123,15 +123,11 @@ but the site says `Routing 3: Link-State, Addressing`.
 as lectures 18 and 19, ending at 29. The site marks them `nonumber` (SP26 and
 SU26 both did), so students see 26 numbered lectures and Buffer is unnumbered.
 
-**The lecture schedule has one row too many.** The official Fall 2026 calendar says
-formal classes end **Fri Dec 4**; Dec 7-11 is RRR week and Dec 14-18 is finals.
-So Tu/Th lectures run Aug 27 - Dec 3 = **29 class days**, one of which (Nov 26) is
-the Thanksgiving holiday.
-
-The spreadsheet lists 29 numbered lectures plus a Thanksgiving row = 30 slots.
-That is one more than exists. `Buffer/Guest?` is currently dropped from the site
-since it is the trailing row and explicitly tentative. Confirm with Ion and Sylvia
-that cutting Buffer is the right call rather than dropping something else.
+**Lecture schedule: resolved.** Formal classes end Fri Dec 4 (Dec 7-11 is RRR week,
+Dec 14-18 is finals), so Tu/Th lectures run Aug 27 - Dec 3 = 29 class days, one of
+which (Nov 26) is Thanksgiving. The spreadsheet listed 30 slots, one more than
+exists. `Buffer/Guest?` was dropped, and Ion and Sylvia have confirmed that was the
+right call - the extra row was a mistake in the spreadsheet.
 
 Final lineup: Nov 24 AI (Collectives), Nov 26 Thanksgiving, Dec 1 Wireless,
 Dec 3 Cellular.
