@@ -85,6 +85,8 @@ The final exam is on {{ site.data.faqs.final.date }}. Finals week is December 14
 
 **Q11: Can I take this class remotely? Do you offer remote exams?**
 
+We don't take attendance at lecture or discussion, so you can follow the class remotely if you need to.
+
 In this semester, we will not be offering remote exams. All students should plan to take exams in-person at the scheduled time.
 
 
@@ -96,9 +98,11 @@ The alternate midterm time at {{ site.data.faqs.midterm.alt }}.
 
 The alternate final exam time is {{ site.data.faqs.final.alt }} (we'll give you a few minutes to walk between exams).
 
+This page will be updated once the exam times are confirmed.
+
 There are no other alternate exam times. There are no remote exams at alternate times.
 
-**Note:** The enrollment system now allows time conflicts, so if you have one, the alternate-time exam is intended for you.
+**Note (added Wed Aug 26):** The enrollment system now allows time conflicts, so if you have one, the alternate-time exam is intended for you.
 
 We are only offering the alternate exam time if you are unable to take the exam at the normal time. For example, if you have another exam at the same time, you can take the alternate-time exam. However, wanting a break between non-conflicting exams would not be a valid reason to take the alternate-time exam, because in this case you are able to take the exam at the normal time.
 
