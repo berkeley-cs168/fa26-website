@@ -1,16 +1,16 @@
-last_updated: "August 26, 2026"
+last_updated: "August 27, 2026"
 year: "2026"
 semester: "fall"
 semester_capital: "Fall"
 # Instruction begins Wed Aug 26; the first *full* week starts Mon Aug 31
 first_week: "August 31, 2026"
 midterm:
-  date: "TBA"
-  alt: "TBA"
+  date: "TBA (this page will be updated once we know)"
+  alt: "TBA (this page will be updated once we know)"
   start: "TBA"
   day: "TBA"
 final:
-  date: "TBA"
-  alt: "TBA"
-  start: "TBA"
-  day: "TBA"
+  date: "Wednesday, December 16, 2026, 8–11am PT"
+  alt: "Wednesday, December 16, 2026, 11am–2pm PT"
+  start: "11am PT"
+  day: "Wednesday, December 16"
