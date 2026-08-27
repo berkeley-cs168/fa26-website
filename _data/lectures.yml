@@ -88,7 +88,7 @@ lectures:
   - name: Intro
     link: https://textbook.cs168.io/intro/intro.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/n8u8f2OYths
 - title: 'Intro 2: Architectural Overview: Bottom-up'
   readings:
   - name: Links
