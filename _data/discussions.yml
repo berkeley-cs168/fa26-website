@@ -111,8 +111,8 @@ discussions:
   nonumber: true
   rowspan: 2
 - title: Intro I
-  regular_video: ''
-  regular_slides: ''
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWukNQcLltg84EO8IASSHu5e
+  regular_slides: https://docs.google.com/presentation/d/1dxzjus0rlW0Ach2xa-jSlcNNBfomPprC
 - title: Intro II
   regular_slides: ''
   regular_video: ''
