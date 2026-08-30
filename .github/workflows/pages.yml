@@ -15,11 +15,6 @@ on:
   push:
     branches: ["main"]
 
-  # Runs when the Merge Schedule workflow completes
-  workflow_run:
-    workflows: ["Merge Schedule"]
-    types: [completed]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
