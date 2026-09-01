@@ -114,43 +114,43 @@ discussions:
   regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWukNQcLltg84EO8IASSHu5e
   regular_slides: https://docs.google.com/presentation/d/1dxzjus0rlW0Ach2xa-jSlcNNBfomPprC
 - title: Intro II
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1Iv6LPCTxVjtA4Onj8ynZ0W7JvIjjtmfy
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWs4qT_ipdZPWQdWMWMFi97I
 - title: Routing I
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1gZDfEI-sEf7rmDL54F52uM5OnMUm2Y-u
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWsDR92BkD7jBVtRO-hzmS-L
 - title: Routing II
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1nWqu8GbHp3nhBg1XL28L2VSRIs89bp4j
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWuD50xfpzeAD0BJ3x_GMcap
 - title: BGP
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1vkP32dQZlWnYqSfFnW3s-fhTyiHLauNA
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWsf81uzipsaI0iorg_pvla2
 - title: TCP
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1MKcCUyHsFwazsP2XjVxjSVN2Lq77OHbp
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWtNIGkTdpy3lTdAp1jj1ywt
 - title: Congestion Control
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/14vJk20TLwQme-1Tjkc1RhOajRUu_EYL2
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWt-UOqKDaTgT8y_0W7wJV7Y
 - title: DNS, HTTP
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/12EWJ1xzCsfRUQ0RV4-bS0DUvQUIjTvzx
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWuKzQNDCfKqfhlKDv5PEG4X
   extra: '[Midterm Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWs0MMEvF4oc2tqKG7cNM-EX)'
 - title: ARP, DHCP, NAT
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1aZyTvpmL_DkR1x9qMlI9hmcT2wa0Ibwb
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWsOnEI6k7b8K4mxG3LnzBtb
 - title: Datacenters
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1c0oS2oCFnyhMXzBh_pNftRozPeFnT8Gm
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWuhlYE5yZkIDyG2n8I3h4Xw
   extra: '[Ethernet Slides](https://docs.google.com/presentation/d/1uY7NsitXZ25n9K9iUbcG8O_8W4Cbpog6v9QVUoV7yxE)'
 - title: Host Networking and SDN
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1pDnVgJCocehzmEohkXS3z54rQV0CV7Z2
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWvuTE9kUaX-P7yHrvd5mItb
 - title: Multicast and Collectives
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/10RAWEx7Xi1uKwmu8IyimuWr-hluMo665
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWsU85_Cy9VIFEJAOPen7KhJ
 - title: Wireless and Cellular
-  regular_slides: ''
-  regular_video: ''
+  regular_slides: https://docs.google.com/presentation/d/1DAcieNClgL-kltdHAblqnyTbM3g4WQiN
+  regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWt0wXnmnr16_RJHUPeu4XAD
   extra: '[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)'
 - title: ''
   nonumber: true
