@@ -67,7 +67,7 @@ Some assumptions before we get started:
 
 To get you started, we've provided an implementation of a hub in `examples/hub.py`. The hub is a network device that takes any incoming packet, and forwards that packet out of all its ports (except the port the packet came from).
 
-Let's run the simulator on a linear topology with three hosts:
+Let's run the simulator on a linear topology with three hosts (make sure you are in the `/simulator` directory):
 
 ```bash
 python3 simulator.py --start --default-switch-type=examples.hub topos.linear --n=3 
