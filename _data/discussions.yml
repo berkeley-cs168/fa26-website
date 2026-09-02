@@ -114,44 +114,44 @@ discussions:
   regular_video: https://www.youtube.com/playlist?list=PL0_XloRC3MWukNQcLltg84EO8IASSHu5e
   regular_slides: https://docs.google.com/presentation/d/1dxzjus0rlW0Ach2xa-jSlcNNBfomPprC
 - title: Intro II
-  regular_slides: https://docs.google.com/presentation/d/1Iv6LPCTxVjtA4Onj8ynZ0W7JvIjjtmfy
+  regular_slides: ''
   regular_video: ''
 - title: Routing I
-  regular_slides: https://docs.google.com/presentation/d/1gZDfEI-sEf7rmDL54F52uM5OnMUm2Y-u
+  regular_slides: ''
   regular_video: ''
 - title: Routing II
-  regular_slides: https://docs.google.com/presentation/d/1nWqu8GbHp3nhBg1XL28L2VSRIs89bp4j
+  regular_slides: ''
   regular_video: ''
 - title: BGP
-  regular_slides: https://docs.google.com/presentation/d/1vkP32dQZlWnYqSfFnW3s-fhTyiHLauNA
+  regular_slides: ''
   regular_video: ''
 - title: TCP
-  regular_slides: https://docs.google.com/presentation/d/1MKcCUyHsFwazsP2XjVxjSVN2Lq77OHbp
+  regular_slides: ''
   regular_video: ''
 - title: Congestion Control
-  regular_slides: https://docs.google.com/presentation/d/14vJk20TLwQme-1Tjkc1RhOajRUu_EYL2
+  regular_slides: ''
   regular_video: ''
 - title: DNS, HTTP
-  regular_slides: https://docs.google.com/presentation/d/12EWJ1xzCsfRUQ0RV4-bS0DUvQUIjTvzx
+  regular_slides: ''
   regular_video: ''
-  extra: '[Midterm Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWs0MMEvF4oc2tqKG7cNM-EX)'
+  extra: ''
 - title: ARP, DHCP, NAT
-  regular_slides: https://docs.google.com/presentation/d/1aZyTvpmL_DkR1x9qMlI9hmcT2wa0Ibwb
+  regular_slides: ''
   regular_video: ''
 - title: Datacenters
-  regular_slides: https://docs.google.com/presentation/d/1c0oS2oCFnyhMXzBh_pNftRozPeFnT8Gm
+  regular_slides: ''
   regular_video: ''
-  extra: '[Ethernet Slides](https://docs.google.com/presentation/d/1uY7NsitXZ25n9K9iUbcG8O_8W4Cbpog6v9QVUoV7yxE)'
+  extra: ''
 - title: Host Networking and SDN
-  regular_slides: https://docs.google.com/presentation/d/1pDnVgJCocehzmEohkXS3z54rQV0CV7Z2
+  regular_slides: ''
   regular_video: ''
 - title: Multicast and Collectives
-  regular_slides: https://docs.google.com/presentation/d/10RAWEx7Xi1uKwmu8IyimuWr-hluMo665
+  regular_slides: ''
   regular_video: ''
 - title: Wireless and Cellular
-  regular_slides: https://docs.google.com/presentation/d/1DAcieNClgL-kltdHAblqnyTbM3g4WQiN
+  regular_slides: ''
   regular_video: ''
-  extra: '[Final Minilectures](https://www.youtube.com/playlist?list=PL0_XloRC3MWtJqLFGX4Fd_BSXcrwspIHd)'
+  extra: ''
 - title: ''
   nonumber: true
   rowspan: 4
