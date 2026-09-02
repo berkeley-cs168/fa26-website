@@ -96,7 +96,7 @@ lectures:
   - name: Multiplexing
     link: https://textbook.cs168.io/intro/sharing-resources.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/XUtsQwUOPSo
 - title: 'Intro 3: Architectural Overview: Top-Down'
   readings:
   - name: Layers
