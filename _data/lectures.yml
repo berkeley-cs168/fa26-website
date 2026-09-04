@@ -104,7 +104,7 @@ lectures:
   - name: Headers
     link: https://textbook.cs168.io/intro/headers.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/2tshXjiDy8g
 - title: 'Intro 4: Architectural Principles'
   readings:
   - name: Architecture
