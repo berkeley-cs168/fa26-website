@@ -135,6 +135,8 @@ discussions:
   regular_slides: ''
   regular_video: ''
   extra: ''
+- title: No Discussion (Midterm)
+  nonumber: true
 - title: ARP, DHCP, NAT
   regular_slides: ''
   regular_video: ''
@@ -152,9 +154,6 @@ discussions:
   regular_slides: ''
   regular_video: ''
   extra: ''
-- title: ''
-  nonumber: true
-  rowspan: 4
 - title: ''
   nonumber: true
   rowspan: 4
