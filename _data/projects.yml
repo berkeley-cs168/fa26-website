@@ -92,9 +92,9 @@ projects:
   classes:
   - schedule-blue
 - title: Project 3 (TBD)
-  rowspan: 36
+  rowspan: 42
   due: TBD
   link: proj3/
-  gradescope: '' # TODO(FA26): assignment link once Project 3 exists
+  gradescope: ''
   classes:
   - schedule-green

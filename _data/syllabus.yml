@@ -7,14 +7,15 @@
 # so some fiddling is necessary. If you're struggling with time zone issues,
 # try setting your system time to GMT when building the website.
 start_date: 2026-08-26
-end_date: 2026-12-03 # last lecture; formal classes end Fri Dec 4, RRR week is Dec 7-11
+end_date: 2026-12-10 # last lecture; formal classes end Fri Dec 4, RRR week is Dec 7-11
 
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here.
 # Due to time zone issues, these might not show up exactly on the calendar,
 # so some fiddling is necessary. If you're struggling with time zone issues,
 # try setting your system time to GMT when building the website.
-extra_days: []
+extra_days:
+ - date: 2026-12-16
  # - date: 2026-12-XX # TODO(FA26): final exam date, once confirmed
 
 

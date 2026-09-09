@@ -8,10 +8,10 @@ midterm:
   scope: "" # TODO(FA26)
   num_cheatsheets: "two"
   arrival: "" # TODO(FA26)
-  day: "TBD"
-  start: "TBD"
+  day: "Wednesday, December 16"
+  start: "8:00am"
 final:
-  date: "TBD" # TODO(FA26): finals week is Dec 14-18
+  date: "Wednesday, December 16, 2026, 8–11am PT"
   alt: "TBD" # TODO(FA26)
   form_open_until: "" # TODO(FA26)
   form_deadline: "" # TODO(FA26)
@@ -19,5 +19,5 @@ final:
   scope: "" # TODO(FA26)
   num_cheatsheets: "three"
   arrival: "" # TODO(FA26)
-  day: "TBD"
-  start: "TBD"
+  day: "Wednesday, December 16"
+  start: "8:00am"

@@ -112,7 +112,7 @@ lectures:
   - name: Design
     link: https://textbook.cs168.io/intro/sharing-resources.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/2F4nZd5gltI
 - title: 'Routing 1: Principles'
   readings:
   - name: Intro
@@ -286,3 +286,8 @@ lectures:
     link: https://textbook.cs168.io/special-topics/cellular.html
   slides: ''
   recording: ''
+- title: No Lecture (RRR Week)
+  nonumber: true
+  rowspan: 4
+- title: '**Final Exam** (Wed Dec 16, 8–11am)'
+  nonumber: true
