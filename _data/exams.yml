@@ -1,6 +1,6 @@
 current_exam: "midterm"
 midterm:
-  date: "TBD" # TODO(FA26): lecture schedule says Thu Oct 29 - confirm with Carlos Garcia
+  date: "Thursday, October 22, 2026, 7–9pm PT"
   alt: "TBD" # TODO(FA26)
   form_deadline: "" # TODO(FA26)
   form_open_until: "" # TODO(FA26)
@@ -8,8 +8,8 @@ midterm:
   scope: "" # TODO(FA26)
   num_cheatsheets: "two"
   arrival: "" # TODO(FA26)
-  day: "Wednesday, December 16"
-  start: "8:00am"
+  day: "Thursday, October 22"
+  start: "7:00pm"
 final:
   date: "Wednesday, December 16, 2026, 8–11am PT"
   alt: "TBD" # TODO(FA26)

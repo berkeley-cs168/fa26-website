@@ -5,10 +5,10 @@ semester_capital: "Fall"
 # Instruction begins Wed Aug 26; the first *full* week starts Mon Aug 31
 first_week: "August 31, 2026"
 midterm:
-  date: "TBA (this page will be updated once we know)"
+  date: "Thursday, October 22, 2026, 7–9pm PT"
   alt: "TBA (this page will be updated once we know)"
-  start: "TBA"
-  day: "TBA"
+  start: "7pm PT"
+  day: "Thursday, October 22"
 final:
   date: "Wednesday, December 16, 2026, 8–11am PT"
   alt: "Wednesday, December 16, 2026, 11am–2pm PT"

@@ -131,12 +131,12 @@ discussions:
 - title: Congestion Control
   regular_slides: ''
   regular_video: ''
+- title: No Discussion (Midterm)
+  nonumber: true
 - title: DNS, HTTP
   regular_slides: ''
   regular_video: ''
   extra: ''
-- title: No Discussion (Midterm)
-  nonumber: true
 - title: ARP, DHCP, NAT
   regular_slides: ''
   regular_video: ''

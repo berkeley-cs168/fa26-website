@@ -197,6 +197,10 @@ lectures:
     link: https://textbook.cs168.io/applications/dns.html
   slides: ''
   recording: ''
+- title: No Lecture (Midterm)
+  nonumber: true
+- title: '**Midterm** (Thu Oct 22, 7–9pm)'
+  nonumber: true
 - title: 'Applications 2: HTTP and CDNs'
   readings:
   - name: HTTP
@@ -211,10 +215,6 @@ lectures:
     link: https://textbook.cs168.io/end-to-end/l2-routing.html
   slides: ''
   recording: ''
-- title: No Lecture (Midterm)
-  nonumber: true
-- title: '**Midterm** (Thu Oct 29)'
-  nonumber: true
 - title: 'End-to-End 2: ARP, DHCP, NAT, TLS'
   readings:
   - name: NAT
