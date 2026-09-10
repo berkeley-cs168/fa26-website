@@ -19,7 +19,7 @@ has_children: false # the page does have children but they're all unlisted, so w
 
 ## Enrollment
 
-[Class listing on classes.berkeley.edu](https://classes.berkeley.edu/content/2026-summer-compsci-168-001-lec-001)
+[Class listing on classes.berkeley.edu](https://classes.berkeley.edu/content/2026-fall-compsci-168-001-lec-001)
 
 In general, course staff does not control enrollment; we have to follow [the department's enrollment policies](https://eecs.berkeley.edu/resources/undergrads/cs/enrollment-policy/). We do not have any enrollment codes. If you have any questions about enrollment, please reach out to the emails listed in the enrollment policies page.
 
@@ -56,7 +56,7 @@ If you need to contact the course staff privately, please make a private questio
 
 ## Lecture
 
-We will have a 90-minute live lecture on Mondays, Tuesdays, Wednesdays, Thursdays at 2:00–3:30pm in Lewis 100. This is the listed lecture time on the course schedule.
+We will have a 90-minute live lecture on Tuesdays and Thursdays at 11:00 AM–12:30 PM in [{{ site.lecture.location.name }}]({{ site.lecture.location.link }}). This is the listed lecture time on the course schedule.
 
 Lectures will be recorded and recordings will be posted on bCourses. We'll try to livestream lectures on Zoom, but no promises.
 
