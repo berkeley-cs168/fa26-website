@@ -144,7 +144,7 @@ In this semester, we will not be offering remote exams. All students should plan
 
 If you are unable to take the exam at the scheduled time, we will be offering only one alternate exam time, **in-person only**:
 
-The alternate midterm time at {{ site.data.faqs.midterm.alt }}.
+The alternate midterm time is {{ site.data.faqs.midterm.alt }} (right after the regular exam).
 
 The alternate final exam time is {{ site.data.faqs.final.alt }} (we'll give you a few minutes to walk between exams).
 
