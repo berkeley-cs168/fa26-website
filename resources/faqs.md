@@ -95,7 +95,7 @@ Yes, we can add you to the course Gradescope and Ed forum. To request access bef
 
 ### Q6: I'm a concurrent enrollment student. When can I enroll in the class?
 
-The department processes concurrent enrollment applications, not us. Concurrent enrollment applications are scheduled to be processed in the first full week of the semester ({{ site.data.faqs.first_week }}), at the earliest. Please check this page later for updates; we have no additional information at this time, so please do not email us about concurrent enrollment until this page is updated.
+The department processes concurrent enrollment applications, not us. Concurrent enrollment applications are scheduled to be processed in the first full week of the semester. Please check this page later for updates; we have no additional information at this time, so please do not email us about concurrent enrollment until this page is updated.
 
 In past semesters, we have been able to accept all concurrent enrollment applications, but we cannot make any promises for this semester, so we recommend having a backup plan. We have no way to estimate the odds of your application being approved, so please don't ask us. (If you ask us, you will just be redirected to this page.)
 
