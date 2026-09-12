@@ -122,7 +122,7 @@ lectures:
   - name: States
     link: https://textbook.cs168.io/routing/solutions.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/nycplgc1WkA
 - title: 'Routing 2: Distance-Vector'
   readings:
   - name: Distance-Vector
