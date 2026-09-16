@@ -128,7 +128,7 @@ lectures:
   - name: Distance-Vector
     link: https://textbook.cs168.io/routing/distance-vector.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/dK6cxZgnv34
 - title: 'Routing 3: Link-State, Addressing'
   readings:
   - name: Link-State
