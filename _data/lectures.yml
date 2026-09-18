@@ -136,6 +136,7 @@ lectures:
   - name: Addressing
     link: https://textbook.cs168.io/routing/addressing.html
   slides: ''
+  recording: https://youtu.be/84DhchBUn8o
 - title: 'Routing 4: Routers'
   readings:
   - name: Routers
