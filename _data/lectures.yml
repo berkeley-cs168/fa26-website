@@ -142,6 +142,7 @@ lectures:
   - name: Routers
     link: https://textbook.cs168.io/routing/router.html
   slides: ''
+  recording: https://youtu.be/lqWOKCaHfCQ
 - title: 'Routing 5: BGP I'
   readings:
   - name: Model
