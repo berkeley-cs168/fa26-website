@@ -150,7 +150,7 @@ lectures:
   - name: Design
     link: https://textbook.cs168.io/routing/bgp.html
   slides: ''
-  recording: ''
+  recording: https://youtu.be/bd9NPjUk9t8
 - title: 'Routing 6: BGP II'
   readings:
   - name: Implementation
